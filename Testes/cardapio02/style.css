@@ -1,0 +1,86 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'cake';
+    src: url(fontes/Make\ cake\ TTF.ttf) format('opentype');
+    font-weight: normal;
+
+}
+:root {
+    --cor0: #FFD3B6 ;
+    --cor1: #FFAAA7 ;
+    --cor2: #FF8B94 ;
+    --cor3: #FFD5A3 ;
+    --cor4: #D4A373 ;
+    --cor5:  ;
+    --cor6:  ;
+
+    --font-padrao: Arial, verdana, helvetica, sans-serif;
+    --font-bolo: 'cake', cursive;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor0);
+    font-family: var(--font-padrao);
+}
+
+header{
+    background-color: var(--cor1);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+header > h1 {
+    font-family: var(--font-bolo);
+    color: rgba(165, 42, 42, 0.671);
+    font-size: 1.4em;
+    font-weight: bolder;
+}
+header > p {
+    color: black;
+    font-size: 1.2em;
+    font-family: var(--font-padrao);
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+main {
+    min-width: 300px;
+    max-width: 850px;
+    margin: auto;
+    background-color:white;
+    border-radius: 0px 0px 10px 0px;
+    
+}
+main h1 {
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    
+}
+main p {
+    font-size: 1.1em;
+    padding: 0px 8px 10px 8px;
+    font-weight: bold;
+}
+article > ul {
+    list-style-type: '\🍰';
+    list-style-position: inside;
+    columns: 2;
+    padding: 10px;
+}
+article > p {
+    text-indent: 25px;
+}
+article .contato {
+    text-align: center;
+}
+footer {
+    color: black;
+    background-color: var(--cor2);
+    padding: 2.5px;
+    text-align: center;
+}

@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+
+header {
+    background-color: antiquewhite;
+}
+main {
+    min-width: 350px;
+    max-width: 850px;
+    background-color: aqua;
+}
+.bolos {
+    width: 180px;
+    display: inline-block; 
+    border: 3px solid rgba(165, 42, 42, 0.705) ;
+    border-radius: 03px;
+    
+}
+img {
+    width: 100%;   
+}

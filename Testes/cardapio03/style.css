@@ -1,0 +1,110 @@
+@charset "UTF 8";
+@font-face {
+    font-family: 'cake';
+    src: url(fontes/Make\ cake\ TTF.ttf) format('opentype');
+    font-weight: normal;
+}
+
+
+
+:root {
+    --cor01: #f08080 ;
+    --cor02: #f4978e ;
+    --cor03: #f8ad9d;
+    --cor04: #fbc4ab ;
+    --cor05: #ffdab9 ;
+    --cor06: #390D02 ; 
+
+    --fonte-padrao: Arial, verdana, helvetica, sans-serif;
+    --fonte-bolo: 'cake', cursive;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+} 
+
+body {
+    font-family: var(--fonte-padrao);
+    background-color: var(--cor05);
+    
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor04), var(--cor02));
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+} 
+
+header > h1 {
+    font-family: var(--fonte-bolo);
+    font-size: 1.8em;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: var(--cor06);
+}
+header > p {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: black;
+}
+main {
+    min-width: 300px;
+    max-width: 850px;
+    margin: auto;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+main  h1 {
+    text-align: center;
+    padding: 10px;
+    font-size: 1.7em;
+    font-weight: bold;
+}
+main p.aviso {
+    text-indent: 25px;
+    font-size: 1.2em;
+    padding: 0px 0px 0px 5px;
+}
+main h2.sabor {
+    text-align: left;
+    text-indent: 10px;
+    font-size: 1.6em;
+    text-decoration: underline;
+    padding: 0px 0px 10px 5px;
+}
+article > ul {
+    list-style-type:'\🍰' ;
+    list-style-position: inside;
+    columns: 2;
+    padding: 0px 10px 10px 10px;
+    line-height: 23px;
+    
+}
+article > p.alerta {
+    text-indent: 25px;
+    font-size: 1.2em;
+    padding: 0px 0px 5px 10px
+    
+}
+article > p.contato {
+    text-indent: 15px;
+    line-height: 20px;
+    font-size: 1.1em;
+    text-align: center;
+    padding: 0px 0px 10px 0px;
+
+}
+article  a {
+    text-decoration: none;
+    color: var(--cor01);
+} 
+footer {
+    background-color: var(--cor02);
+    text-align: center;
+    font-size: 1em;
+    padding: 2.5px;
+}
+

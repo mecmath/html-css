@@ -1,0 +1,58 @@
+@charset "UTF-8";
+body{
+    font: normal normal 1em times, verdana, serif;
+    background-color: rgb(245 163 234);
+}
+h1{
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: bolder;
+}
+h2{
+    font-size: 2em;
+    text-align: center;
+    font-weight: bolder;
+}
+p{
+    font-size: 1em;
+    text-align: justify;
+    font-weight: normal;
+}
+a{
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+/*pagina 02*/
+section#comum {
+    background-color: #a339bd66;
+    border: 03px solid #500e6ab0;
+    padding: 5px 14px 5px 14px;
+    margin: 10px 10px 10px 10px;
+}
+section#especial {
+    background-color: #a339bd66;
+    border: 03px solid #500e6ab0;
+    padding: 5px 14px 5px 14px;
+    margin: 10px 10px 10px 10px;
+}
+section#comunique{
+    background-color: #a339bd66;
+    border: 03px solid #500e6ab0;
+    padding: 5px 14px 5px 14px;
+    margin: 10px 10px 10px 10px;
+    
+}
+footer{
+    background-color: #a339bd66;
+    border: 03px solid #500e6ab0;
+    padding: 5px;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+}
+div > p{
+    display: none;
+}
+div:hover > p{
+    display: block;
+}
+

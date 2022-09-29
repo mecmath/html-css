@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="bolo-ico.ico" type="image/x-icon">
+    <title>Teste</title>
+</head>
+<body>
+    <h1>Teste de conhecimentos</h1>
+    <p>Estou aqui fazendo esse código para testar meus conhecimentos adquirindos até aqui, todos os códicos e comandos que aprendi, irei aplicar todos aqui neste "site".</p>
+    <h2>Irei explicar passo-a-passo o que irei fazer.</h2>  
+    <p>-Primeiro começarei adicionando um Favicon! Só olhar acima do site. &uArr; &uarr;</p>
+    <p>-Logo depois adicionarei um pequeno emoji</p>
+    <p>-Em terceiro lugar irei adicionar uma imagem que pode ser adicionada de muitas formas. <img src="bolo-ico.ico" alt="Bolo de Morango"></p>
+    <p>-Agora iremos deixar o <strong>texto em negrito</strong> e logo em seguinda <em>iremos deixar o texto em italico.</em> Viu?</p>
+    <p>-Podemos também <mark>marcar um texto</mark> e mudar a cor atráves das css.</p>
+    <p>- E também podemos deixar o <big>texto grande</big> e deixar <small>o texto pequeno.</small> </p>
+    <p>-Tambbém vamos fazer um <del>texto excluído</del> e um <ins>texto inserido</ins> quê significa que deve ser lido com atenção. </p>
+    <p>
+        -Vamos também fazer um texto subescrito ex.: X<sup>20</sup>+10 <br>
+        -E um texto subscrito ex.: H<sub>2</sub>O
+    </p>
+    <p>-Agora vou escrever um código (phyton) e fazer com que ele apareça da meneira exata que escrevi, através da tag code e pre.</p>
+    <pre><code>
+        num=int(input('Digite um número'))
+        if num % 2 ==0:
+        print (f'0 número {num} é impar')
+    </pre></code>
+    <p>-Agora vamos fazer <strong>citações</strong> ex.: <blockquote>esse aqui é um exemplo de citação</blockquote> 
+        -Tambem podemos colocar um link em nossa citação <blockquote cite="www.exemplodelink.com/matheus" >esse aqui é outro exemplo de citação</blockquote>
+    </p>
+    <p>-Vamos agora, trabalhar com abreviações ex.: <abbr title="Matheus, Tati  e Marcio">MTM</abbr> esse é o nome de uma pequena empresa.</p>
+    <p>-Também tem o <bdo dir="rtl">texto invertido</bdo> (texto invertido) </p>
+    <p>-Agora chegou a hora de criar uma lista, tem as listas ordenadas e as não-ordenadas e podemos tambeém <mark>mistura-las.</mark></p>
+    <p>vamos começar com as ordenadas:</p>
+    <ol>
+        <li type="1">item</li>
+        <li type="A">item</li>
+        <li type="a">item</li>
+        <li type="I">item</li>
+        <li type="i">item</li>
+        <p>Podemos usar qualquer um desdes valores</p>
+    </ol>
+    <p>-Agora vamos para a lista não-oredenadas:</p>
+    <ul>
+        <li type="square">item</li>
+        <li type="circle">item</li>
+        <li type="disc">item</li>
+    </ul>
+    <p>-Temos tambem a lista de definições:</p>
+    <dl type="1">Html</dl>
+    <dd>Linguagem de marcação</dd>
+    <dt>Linguagem de marcação para especificação de estilo no site</dt>
+
+    <h>Agora iremos partir para parte dos links</h>
+    <p>-Primeiro vamos colocar um link de um "site" que esta na mesma pasta que este arquivo.</p>
+    <a href="pag02.html" hreflang="pt-br">acesse aqui minha pagina secudaria!</a>
+    <p>-Podemos tambem colocar um link de uma pagina que nao esta na mesma pasta e fazela abrir numa nova janelae indicar se o link é para uma próxima ou anterior página.</p>
+    <a href="pag/pag03.html" target="_blank" rel="next">acesse aqui minha terceira pagina!</a>
+    <p>-Vamos colocar agora um link de download:</p>
+    <ol>
+        <li><a href="livros/meulivro1.pdf" target="_blank" download="meulivro1.pdf" type="aplication/pdf">Baixe aqui meu livro em pdf</a></li> 
+        <li><a href="livros/meulivro.zip" download="meulivro.zip" type="aplication/zip">Baixe aqui a versão em .zip</a></li>
+    </ol>
+    <p>-Por fim, vamos adicionar imagens que vão variar com tamanho da tela:</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="imgflex/pequena.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imgflex/media.png" type="image/png">
+        <img src="imgflex/grande.png" alt="imagem flexcivel">
+    </picture>
+    
+    
+</body>
